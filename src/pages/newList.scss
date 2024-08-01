@@ -21,3 +21,15 @@
   height: 40px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .new-list {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .new-list {
+    width: 300px;
+  }
+}

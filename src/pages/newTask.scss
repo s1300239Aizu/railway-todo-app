@@ -18,6 +18,10 @@
   height: 200px;
 }
 
+.new-task-limit {
+  margin-bottom: 30px;
+}
+
 .new-task-button {
   background-color: #242F9B;
   color: #ffffff;
@@ -28,4 +32,16 @@
 
 .error-message {
   color: #ff3333;
+}
+
+@media screen and (max-width: 768px) {
+  .new-task {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .new-task {
+    width: 300px;
+  }
 }

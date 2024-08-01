@@ -1,20 +1,24 @@
 @charset "utf-8";
 
-.edit-list {
+.edit-task {
   width: 1000px;
   margin: 0 auto;
 }
 
-.edit-list-form {
+.edit-task-form {
   color: #555555;
 }
 
-.edit-list-title {
+.edit-task-title, .edit-task-detail {
   width: 300px;
   margin-bottom: 25px;
 }
 
-.delete-list-button {
+.edit-limit-detail {
+  margin-bottom: 25px;
+}
+
+.delete-task-button {
   color: #ff3333;
   border: solid 1px #ff3333;
   width: 80px;
@@ -23,7 +27,7 @@
   border-radius: 5px;
 }
 
-.edit-list-button {
+.edit-task-button {
   background-color: #242F9B;
   color: #ffffff;
   width: 80px;
@@ -33,4 +37,16 @@
 
 .error-message {
   color: #ff3333;
+}
+
+@media screen and (max-width: 768px) {
+  .edit-task {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .edit-task {
+    width: 300px;
+  }
 }
